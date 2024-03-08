@@ -1,0 +1,3 @@
+def questao4():
+  print('RESP: Cenário onde isso não seria possível: as lâmpadas tendem a esquentar com o tempo de uso, portanto eu poderia escolher uma delas para manter apagada, então o esperado seria que a sua temperatura se mantivesse fria. A segunda, poderia manter ligada por um tempo, o que a faria esquentar um pouco, e a terceira eu poderia manter acesa - fazendo com ela aquecesse. Por fim, ao visitar a sala, eu poderia checar a temperatura e ver em qual dos casos ela se encontra e associar ao interruptor')
+  return True

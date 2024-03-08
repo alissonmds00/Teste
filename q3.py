@@ -17,4 +17,5 @@ def questao3():
   ]
   quantidadePerguntas = len(perguntas) - 1
   for cont in range(quantidadePerguntas):
-     print(f'{perguntas[cont]}\n{respostas[cont]}\n')
+    print(f'{perguntas[cont]}\n{respostas[cont]}\n')
+    return True

@@ -8,5 +8,6 @@ def questao5(string=None):
      #"Varre" a string de trás para a frente. 
      res += f'{string[posCaracter]}'
      #Acumula cada caracter da string e no final retorna o resultado
-  return res
+  print(f'A sua string {string} invertida é: {res}')
+  return True
       

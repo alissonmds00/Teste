@@ -15,8 +15,9 @@ def questao2(alvo=None):
     #E atribuí a elas respectivamente, Atual passa a ser o valor do somatório do valor atual com anterior, 
     #e "anterior" passa a ter o valor que antes era o atual
   if (atual == alvo or alvo == 0):
-      print(f'O número {alvo} está incluso na sequência de Fibonacci')
+    print(f'O número {alvo} está incluso na sequência de Fibonacci')
   else: 
       print(f'O número {alvo} não está incluso na sequência de Fibonacci')
+  return True
   #A função para ou quando o valor é encontrado, ou quando o próximo valor é maior que o alvo
   #Então ocorre a verificação
